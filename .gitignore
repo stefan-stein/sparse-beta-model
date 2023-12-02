@@ -48,9 +48,13 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
+# Mac
+.DS_Store
+
 # project specific files
 generate_summary.pdf
 generate_summary.log
 generate_summary.tex
 generate_summary_files/*
 *.dat
+*.xls

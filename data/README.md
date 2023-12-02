@@ -14,4 +14,8 @@ The simulation data in the subdirectories `model_i/simulation_results` can be re
 
 # Lawyer network
 
-The results from analyzing Lazega's lawyer data can be reproduced by running `lawyer_friendship_network.R`. Before running the code, please download the necesary data from the [original data owner's website](https://www.stats.ox.ac.uk/~snijders/siena/Lazega_lawyers_data.htm) and place it in the `LazegaLawyers` subdirectory.
+The results from analyzing Lazega's lawyer data can be reproduced by running `lawyer_friendship_network.R`. Before running the code, please download the necessary data from the [original data owner's website](https://www.stats.ox.ac.uk/~snijders/siena/Lazega_lawyers_data.htm) and place it in the `LazegaLawyers` subdirectory.
+
+# World trade netwrok
+
+The results from the analysis of the world trade network can be reproduced by running `trade_network.R`. Before running the code, please download the necessary data from the [original data owner's website](http://personal.lse.ac.uk/tenreyro/LGW.html) and place it in the `trade_network` subdirectory.
