@@ -47,3 +47,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# project specific files
+generate_summary.pdf
+generate_summary.log
+generate_summary.tex
+generate_summary_files/*
