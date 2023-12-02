@@ -11,3 +11,7 @@ Each of those subdirectories contains the following:
 ## Re-running the simulations
 
 The simulation data in the subdirectories `model_i/simulation_results` can be reproduced by running the `run_simulation.R` files. The file will look for the environment variable `SGE_TASK_ID` and uses its value for setting the seed (line 75). Running the file once will do 20 simulation runs each for each sample size. To produce the full 1000 simulation runs, the file is meant to be run 50 times, each time with a different seed.
+
+# Lawyer network
+
+The results from analyzing Lazega's lawyer data can be reproduced by running `lawyer_friendship_network.R`. Before running the code, please download the necesary data from the [original data owner's website](https://www.stats.ox.ac.uk/~snijders/siena/Lazega_lawyers_data.htm) and place it in the `LazegaLawyers` subdirectory.
